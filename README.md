@@ -10,4 +10,4 @@ DeepDream is a computer vision program created by Google engineer Alexander Mord
 The idea, simply, is like having a feedback loop on the image classification model. You give the model an image, and it gives you some scores for what objects it was trained on that it believes they might exist in the image. Then, you let the network to modify the input image to make these objects visible more and more. You can repeat this more than one time.
 
 <p align="center">
-<img src="https://github.com/crypto-code/Style-Transfer/blob/master/assets/gate_final.jpg" width="600" align="middle" />   </p>
+<img src="https://github.com/crypto-code/Deep-Dream/blob/master/assets/model.png" height="400" align="middle" />   </p>
