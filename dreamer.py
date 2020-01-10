@@ -87,11 +87,12 @@ for i in range(0, args.frames):
             break
 
 #-------------------------------------------------------------------------------------------------
+print("Creating Video.......................")
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 
-out = cv2.VideoWriter('{}.avi'.format(dream_name),fourcc, 30.0, (630,870))
+out = cv2.VideoWriter('{}.avi'.format(dream_name),fourcc, 30.0, (x_size,y_size))
 
-for i in range(int('inf')):
+for i in range(9999999999999999999):
     if os.path.isfile('dream/{}/img_{}.jpg'.format(dream_name,i+1)):
         pass
     else:
@@ -99,7 +100,7 @@ for i in range(int('inf')):
         break
 
 for i in range(dream_length):
-    img_path = os.path.join(dream_path,'/img_{}.jpg'.format(i))
+    img_path = os.path.join(dream_path,'img_{}.jpg'.format(i))
     print(img_path)
     frame = cv2.imread(img_path)
     out.write(frame)
