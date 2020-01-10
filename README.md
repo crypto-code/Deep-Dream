@@ -20,8 +20,8 @@ Once the image is passed through the layers, a function calculates the gradient 
 ```
 python dreamer.py --help
 
-usage: vid_dreamer.py [-h] --input INPUT --name NAME --frames FRAMES
-                      [--iter_num ITER_NUM] [--zoom ZOOM] [--rec_num REC_NUM]
+usage: dreamer.py [-h] --input INPUT --name NAME --frames FRAMES
+                  [--iter_num ITER_NUM] [--zoom ZOOM] [--rec_num REC_NUM]
 
 Deep Dream Creator
 
