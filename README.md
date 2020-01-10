@@ -20,7 +20,6 @@ Once the image is passed through the layers, a function calculates the gradient 
 ```
 python dreamer.py --help
 
-2020-01-09 21:59:38.396540: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
 usage: vid_dreamer.py [-h] --input INPUT --name NAME --frames FRAMES
                       [--iter_num ITER_NUM] [--zoom ZOOM] [--rec_num REC_NUM]
 
