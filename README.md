@@ -34,3 +34,13 @@ optional arguments:
   --zoom ZOOM          Controls the speed of the zoom [1,2,.....]
   --rec_num REC_NUM    Number of recursive loops
 ```
+
+## Example:
+<p align="center">
+<img src="https://github.com/crypto-code/Deep-Dream/blob/master/assets/sample.gif" height="500" align="middle" />   </p>
+
+
+# G00D LUCK
+
+For doubts email me at:
+atinsaki@gmail.com
